@@ -1,0 +1,8 @@
+{
+    "AWS":{
+        "accessKeyId": "AKIAWHIG6THPBAQSSNHF",
+        "secretAccessKey": "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",
+        "region": "ap-south-1",
+        "bucket":"vickythebucket"
+    }
+}
