@@ -1,12 +1,4 @@
 const { Contact } = require("../Modal/contacts")
-// {
-//     "AWS":{
-//         "accessKeyId": "AKIASZQF2RJSCXIUV4MB",
-//         "secretAccessKey": "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",
-//         "region": "ap-south-1",
-//         "bucket":"vickythebucket"
-//     }
-// }
 const getllallcontact=async(req,res)=>{
     try{
         const allcontacts=await Contact.find({}).sort({createdAt:-1})
